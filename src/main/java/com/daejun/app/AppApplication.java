@@ -34,6 +34,6 @@ public class AppApplication implements CommandLineRunner {
 		interestsRepository.save(new Interests("유튜브보기"));
 		interestsRepository.save(new Interests("게임"));
 		skillRepository.save(new Skill("DB", 85));
-		workRepository.save(new Work("학생", "경성대학교", "3학년","모든 국민은 신속한 재판을 받을 권리를 가진다."));
+		workRepository.save(new Work("학생", "경성대학교", "3학년","모든 국민은 신속한 재판을 받을 권리를 가진다. "));
 	}
 }
