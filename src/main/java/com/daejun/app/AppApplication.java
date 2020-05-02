@@ -26,6 +26,6 @@ public class AppApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		personRepository.save(new Person("박대준", "데이터 분석", "hello@test.com", "010-1234-5678"));
-		socialMediaRepository.save(new SocialMedia("", "", "anonymous", "anonymous"));
+		socialMediaRepository.save(new SocialMedia(" ", " ", "anonymous", "anonymous"));
 	}
 }

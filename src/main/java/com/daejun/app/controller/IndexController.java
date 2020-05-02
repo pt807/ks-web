@@ -26,6 +26,7 @@ public class IndexController {
 
         SocialMedia socialMedia = socialMediaRepository.findAll().stream().findFirst().orElse(null); model.addAttribute("socialMedia", socialMedia);
 
+        
         return "resume";
     }
 }
