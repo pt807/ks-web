@@ -34,6 +34,8 @@ public class IndexController {
 
         List<Interests> interests = interestsRepository.findAll();
         model.addAttribute("interests", interests);
+
+
         return "resume";
     }
 }

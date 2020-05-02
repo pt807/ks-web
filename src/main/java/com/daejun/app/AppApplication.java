@@ -33,5 +33,6 @@ public class AppApplication implements CommandLineRunner {
 		socialMediaRepository.save(new SocialMedia(" ", " ", "anonymous", "anonymous"));
 		interestsRepository.save(new Interests("유튜브보기"));
 		interestsRepository.save(new Interests("게임"));
+		
 	}
 }
